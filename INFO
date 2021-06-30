@@ -1,8 +1,8 @@
 title: MRCS-cpNode-ProMini
 project: MRCS-cpNode-ProMini
 designer: Chuck Catania, Seth Neumann, John Plocher
-fabricated: no
-fab_date: 2020-12
+fabricated: yes
+fab_date: 2021-05
 status: released
 release: yes
 tags: [eagle, MRCS, Processor, LCB]

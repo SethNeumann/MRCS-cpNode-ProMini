@@ -1,13 +1,9 @@
 # MRCS-cpNode-ProMini
-## License: MIT License
-## License: CERN Open Hardware Licence v1.2
 ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
 Arduino ProMini based CMRI node in 2.71" form
 
 cpNode with a ProMini instead of a BBLeo
-
-## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
 cpNode and I/O expander (IOX) boards have been updated to version
 3.0. The Original BareBones BBLeo is EOL and Unavailable, so this respin is done
