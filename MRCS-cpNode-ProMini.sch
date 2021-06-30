@@ -2165,10 +2165,10 @@ Use a 1.6mm board thickness for a firm snap, 1.2mm for a more slippery mount.</d
 <wire x1="2.5" y1="68.834" x2="0" y2="66.04" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="66.04" x2="0" y2="2.5" width="0" layer="20"/>
 <wire x1="0" y1="2.5" x2="2.5" y2="0" width="0" layer="20" curve="90"/>
-<hole x="94.742" y="5.08" drill="4"/>
-<hole x="5.08" y="63.754" drill="4"/>
-<hole x="94.742" y="63.754" drill="4"/>
-<hole x="5.08" y="5.08" drill="4"/>
+<hole x="94.742" y="5.08" drill="6"/>
+<hole x="5.08" y="63.754" drill="6"/>
+<hole x="94.742" y="63.754" drill="6"/>
+<hole x="5.08" y="5.08" drill="6"/>
 <dimension x1="101.6" y1="68.834" x2="101.6" y2="0" x3="104.14" y3="34.417" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="100" y1="68.58" x2="0" y2="68.58" x3="50" y3="71.12" textsize="0.8128" layer="47" dtype="horizontal" width="0.127"/>
 <text x="52.07" y="71.12" size="1.016" layer="47">mm</text>
@@ -4815,7 +4815,6 @@ board edge</text>
 </package>
 <package name="LED3MM">
 <description>LED 3 mm, round</description>
-<wire x1="-1.5748" y1="1.27" x2="-1.5748" y2="-1.27" width="0.254" layer="51"/>
 <wire x1="1.524" y1="0" x2="1.1708" y2="-0.9756" width="0.1524" layer="51" curve="-39.80361"/>
 <wire x1="1.524" y1="0" x2="1.1391" y2="1.0125" width="0.1524" layer="51" curve="41.633208"/>
 <wire x1="-1.1571" y1="-0.9918" x2="-1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
@@ -4831,13 +4830,16 @@ board edge</text>
 <wire x1="0" y1="-2.032" x2="-1.561" y2="-1.3009" width="0.254" layer="21" curve="-50.193108"/>
 <wire x1="1.7929" y1="-0.9562" x2="0" y2="-2.032" width="0.254" layer="21" curve="-61.926949"/>
 <wire x1="0" y1="2.032" x2="-1.5512" y2="1.3126" width="0.254" layer="21" curve="49.763022"/>
-<wire x1="1.7643" y1="1.0082" x2="0" y2="2.032" width="0.254" layer="21" curve="60.255215"/>
-<wire x1="2.032" y1="0" x2="1.7891" y2="-0.9634" width="0.254" layer="51" curve="-28.301701"/>
-<wire x1="2.032" y1="0" x2="1.7306" y2="1.065" width="0.254" layer="51" curve="31.60822"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="octagon" rot="R180"/>
+<wire x1="1.7643" y1="1.00838125" x2="0" y2="2.032" width="0.254" layer="21" curve="60.255215"/>
+<wire x1="2.0828" y1="0" x2="1.7891" y2="-0.9634" width="0.254" layer="21" curve="-28.301701"/>
+<wire x1="2.0828" y1="0" x2="1.7272" y2="1.0668" width="0.254" layer="21" curve="31.60822"/>
+<pad name="A" x="1.27" y="0" drill="0.8128" rot="R180"/>
 <pad name="K" x="-1.27" y="0" drill="0.8128" shape="octagon" rot="R180"/>
 <text x="-1.905" y="-0.381" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
 <text x="-1.905" y="1.651" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
+<wire x1="-1.5748" y1="0.762" x2="-1.5748" y2="-0.889" width="0.254" layer="51"/>
+<wire x1="-1.5748" y1="-0.889" x2="-1.5748" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-1.5748" y1="1.27" x2="-1.5748" y2="0.762" width="0.254" layer="21"/>
 </package>
 <package name="0805-LED">
 <description>OSRAM Hyper CHIPLED Hyper-Bright LED LB R99A</description>
